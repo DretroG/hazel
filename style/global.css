@@ -1,9 +1,12 @@
 /* ----------------- FULL CSS ----------------- */
 /* David and Zoe 28/01/2026 */
-body {
+html, body {
   margin: 0;
   width: 100%;
   min-height: 100%;
+}
+
+body {
   background: radial-gradient(circle at top, #2b0b13, #050002 70%);
   font-family: Georgia, serif;
   color: #fff;
