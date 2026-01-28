@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hazel' Birthday Page 🌞</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/global.css">
+</head>
+<body>
+<div class="sparkle-layer"></div>
+<!-- ================= AUDIO ================= -->
+<audio id="bgMusic" loop>
+  <source src="lovesong.mp3" type="audio/mpeg">
+</audio>
+
+<!-- ================= PAGE 1 : INTRO ================= -->
+<div id="page-intro" class="page show">
+  <div class="music-prompt" id="musicPrompt">
+    <div class="prompt-box">
+      <h2>Before we start...✨</h2>
+      <p>Do you want to enable background music?<br><span>Trust me Swwweetie 🥰 You’ll like it</span></p>
+      <div class="buttons">
+        <button class="yes" onclick="enableMusic(true)">🙂 Yes</button>
+        <button class="no" onclick="enableMusic(false)">🙃 Ummm...</button>
+      </div>
+    </div>
+  </div>
+
+  <img src="images/bd1.gif" alt="Birthday gif" class="my-image">
+  <img src="images/balloon.gif" alt="Balloon gif" class="my-image">
+
+  <div class="projection" id="projection">
+    <div class="typewriter-frame">
+      <p id="typewriter">
+My Sweet Sweet Sunshine...This is David! (and Zoe too!) 😁🙃<br><br>
+Today... it’s so special to me.<br>
+It’s a celebration of the light you carry so effortlessly.<br><br>
+So, from the bottom of my heart, I want to say Happy Birthday to you! 🥳<br>
+Wishing you all you could ever wish for, with good health and prosperity.<br><br>
+My every thought returns to you... My Sweet Sweet Nocciola... 🥰🙂🙃<br>
+      </p>
+      <div id="continueBtnContainer" style="opacity:0; margin-top:25px;">
+        <button id="continueBtnIntro" onclick="goToMemories()">Our Memories... 🥰</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= PAGE 2 : MEMORIES ================= -->
+<div id="page-memories" class="page">
+  <img src="images/hazel.gif" alt="Happy Birthday Hazel" class="my-image">
+  <br><br>
+  <div class="h2">Our Cute Memories Together</div>
+  <br><br>
+  <div id="memoriesContainer"></div>
+  <br><br><br>
+</div>
+
+<!-- ================= PAGE 3 : FINAL COLLAGE ================= -->
+<div id="page-final" class="page">
+  <div id="final-intro" class="final-intro">
+    <img src="images/hazel1.gif" alt="Happy Birthday Hazel" class="my-image">
+    <div class="typewriter-frame">
+      <p id="FinalTypewriter"></p>
+      <button id="finalIntroBtn" style="display:none;" onclick="startCollage()">Continue… 💫</button>
+    </div>
+  </div>
+  <div id="collageContainer"></div>
+</div>
+
+<script src="scripts/global.js"></script>
+</body>
+</html>
