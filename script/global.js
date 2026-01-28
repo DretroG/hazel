@@ -98,7 +98,7 @@ const memories = [
   "I still remember our late night talks, our jokes, and your soothing presence.\nThose moments stay with me forever...🙂",
   "Do you remember the times i would sleep in your arms like a baby...😁🙃\nYou will say...''Lovee..Wake up!''...🙂💖",
   "Every memory we’ve shared has made me happier than i've ever imagined...🥰",
-  "I will remember this day and every other days i find myswlf around you.\nI am so lucky i met you...🥰🥰💖",
+  "I will remember this day and every other days i find myself around you.\nI am so lucky i met you...🥰🥰💖",
   "You deserve the Best!...\nMy Sweet Nocciola...🥰\nso i hope you are smiling...😁\nCause that is want matters to me right now...\nfor you to be happy...🙃",
   "C'mon swwweet...🙂🙃\nI want to see your beautiful smile...😁\nummm...that's great🥰😁\nI can see you in spirit y'know...👀"
 ];
